@@ -74,7 +74,7 @@ module.exports = function(app, device){
     });
 
     app.get('/test', function(req, res){
-      var ret = "testsample2";
+      var ret = "testsample23";
       res.json(ret);
       var t = ret;
     });
