@@ -160,7 +160,7 @@ http 실패, 성공 코드 추가할것.
 get/post 터널링 조심(get은 get만, post는 post만)
 http://myweb/users?method=update&id=terry
 ////////////////////
-login logout 부분
+session + login logout 부분
 
 app.get('/login/:username/:password', function(req, res){
     var sess;
@@ -209,7 +209,8 @@ if(sess.username){
 });
 
 ////////////////////////////////////////////////////////////////
-상세 api부분
+delete / post part
+
      app.post('/addUser/:username', function(req, res){
         var result = {  };
         var username = req.params.username;
