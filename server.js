@@ -34,7 +34,6 @@ db.on('error', console.error);
 db.once('open', function(){
   console.log("MongoDB Server Connect");
 });
-
 mongoose.connect('mongodb://localhost/devices');
 
 var device = require('./models/device.js');
