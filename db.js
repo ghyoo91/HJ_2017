@@ -35,8 +35,8 @@ MongoClient.connect('mongodb://localhost:27017/devices', function(err, dmsDB){
 												user: [{
 														_id: userId[0],
 														password: "qwerty",
-														userNo: "nt11253",
-														username: "유경현",
+														userNo: "nt11111",
+														username: "홍길동",
 														workplace: "Gasan"
 												}],
 												usim : "false",
@@ -54,8 +54,8 @@ MongoClient.connect('mongodb://localhost:27017/devices', function(err, dmsDB){
 											 user : [{
 												 	  _id: userId[1],
 													  password: "qwerty1",
-													  userNo: "nt11224",
-													  username: "김용훈",
+													  userNo: "nt12344",
+													  username: "김철수",
 													  workplace: "Gasan"
 											 }],
 											 usim : "false",
@@ -73,8 +73,8 @@ MongoClient.connect('mongodb://localhost:27017/devices', function(err, dmsDB){
 											 user : [{
 												 		_id: userId[2],
 														password: "qwerty2",
-														userNo: "nt11151",
-														username: "박성현",
+														userNo: "nt12233",
+														username: "전우치",
 														workplace: "Seohyun"
 											}],
 											 usim : "true",
@@ -92,8 +92,8 @@ MongoClient.connect('mongodb://localhost:27017/devices', function(err, dmsDB){
 											 user : [{
 												 		_id: userId[3],
 														password: "qwerty3",
-														userNo: "nt11252",
-														username: "박민수",
+														userNo: "nt54321",
+														username: "박",
 														workplace: "Jungja"
 											 }],
 											 usim : "false",
@@ -149,8 +149,8 @@ MongoClient.connect('mongodb://localhost:27017/devices', function(err, dmsDB){
 											 user : [{
 												 		_id: userId[1],
 														password: "qwerty1",
-														userNo: "nt11224",
-														username: "김용훈",
+														userNo: "nt15674",
+														username: "김선달",
 														workplace: "Gasan"
 											 }],
 											 usim : "true",
@@ -168,8 +168,8 @@ MongoClient.connect('mongodb://localhost:27017/devices', function(err, dmsDB){
 											 user : [{
 												 		_id: userId[0],
 														password: "qwerty",
-														userNo: "nt11253",
-														username: "유경현",
+														userNo: "nt55554",
+														username: "앱등이",
 														workplace: "Gasan"
 											 }],
 											 usim : "true",
